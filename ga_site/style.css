@@ -1,1 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.major-box{
+    width: 1170px;
+    margin: auto;
+}
+
+body{
+    background-image: url('./images/library.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-area li a:hover{
+    background: goldenrod;
+    color: gray;
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+    padding-left: 5%;
+    padding-top:2% ;
+    filter: invert(1);
+}
+
+.welcome-text{
+    position: absolute;
+    margin: 20% 30%;
+    text-align: center;
+    
+}
+
+.welcome-text h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.welcome-text a{
+    border: 1px solid goldenrod;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+.welcome-text a:hover{
+    background: white;
+    color: goldenrod;
+}
+
+.welcome-text p{
+    color: white;
+    font-weight: bold;
+    font-size: 
 
